@@ -32,16 +32,17 @@ Below is shown a few samples of the message format of the zap events generated:
 <br/>
 
 
-**Source files description:**
-| File                                        | Description                                       |
-|---------------------------------------------|---------------------------------------------------|
-| UDP_server/UDP_server.go                    | Main program.                                     |
-| zaplab/Store_Zap_Events/Store_Zap_Events.go | Data structure for storing individual zap events. |
-| zaplab/zstorage/zstorage.go                 | Slice-based storage solution.                     |
-| zaplab/zmap/zmap.go                         | Map-based storage solution.                       |
-| zaplab/SortMap/SortMap.go                   | Algorithm to compute top-10 channels.             |
-| RPCserver/RPCserver.go                      | RPC server                                        |
-| RPCclient/RPCclient.go                      | RPC client                                        |
+**Source files description:**  
+
+| File | Description |
+| ----------- | ----------- |
+| src/DAT320/lab5/UDP_server/UDP_server.go | Main program. |
+| src/DAT320/lab5/zaplab/Store_Zap_Events/Stores_Zap_Events.go | Data structure for storing individual zap events. |
+| src/DAT320/lab5/zaplab/zstorage/zstorage.go | Slice-based storage solution. |
+| src/DAT320/lab5/zaplab/zmap/zmap.go | Map-based storage solution. |
+| src/DAT320/lab5/zaplab/SortMap/SortMap.go | Algorithm to compute top-10 channels. |
+| src/DAT320/lab5/RPCserver/RPCserver.go | RPC server |
+| src/DAT320/lab5/RPCclient/RPCclient.go | RPC client |
 
 
 ********************************************************************************************
